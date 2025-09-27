@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="User" projectname="" version="3.40.10-Bratislava" saveUserFull="User" saveDateTime="2025-09-26T20:12:57">
+<qgis saveUser="User" projectname="" version="3.40.10-Bratislava" saveUserFull="User" saveDateTime="2025-09-26T19:49:01">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -39,13 +39,13 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" expanded="1" id="Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8" name="Photos_geotagged" source="./photos_layer.gpkg|layername=photos_geotagged">
+      <layer-tree-layer checked="Qt::Checked" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" providerKey="memory" expanded="1" id="Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1" name="Photos" source="PointZ?crs=EPSG:4326&amp;field=photo:string(0,0)&amp;field=filename:string(0,0)&amp;field=directory:string(0,0)&amp;field=altitude:double(0,0)&amp;field=direction:double(0,0)&amp;field=rotation:integer(0,0)&amp;field=longitude:string(0,0)&amp;field=latitude:string(0,0)&amp;field=timestamp:datetime(0,0)&amp;uid={fbf35c3e-1610-4b74-a9e3-3c63f76c417c}">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group checked="Qt::Checked" groupLayer="" expanded="1" name="Data_NYC_2021">
+    <layer-tree-group checked="Qt::Checked" groupLayer="" expanded="0" name="Data_NYC_2021">
       <customproperties>
         <Option/>
       </customproperties>
@@ -448,7 +448,7 @@
       <item>DEM_14_3857_58019b8d_e60f_4f20_98fe_5933e145ecbc</item>
       <item>road_graph_1776_3856_3a2d40ff_6009_4a37_9055_138d8d606c1c</item>
       <item>1782_British_Headquarters_map_modified_ca33a54a_327c_4549_9d7a_ec4e83ef1f4c</item>
-      <item>Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8</item>
+      <item>Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings maxScale="0" enabled="1" mode="2" unit="1" self-snapping="0" intersection-snapping="1" tolerance="12" minScale="0" scaleDependencyMode="0" type="1">
@@ -467,7 +467,7 @@
       <layer-setting maxScale="0" enabled="0" id="ponds_1609_32016_025a02d6_5314_4307_b5b6_5c9b53ebedac" units="1" tolerance="12" minScale="0" type="1"/>
       <layer-setting maxScale="0" enabled="0" id="ponds_1609_3857_modified_7393692f_9e20_4138_9bce_73fe1e2ba28a" units="1" tolerance="12" minScale="0" type="1"/>
       <layer-setting maxScale="0" enabled="0" id="DEM_WM_extend_3857_61f16171_a5ed_4409_a360_e8037c61a053" units="1" tolerance="12" minScale="0" type="1"/>
-      <layer-setting maxScale="0" enabled="0" id="Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8" units="1" tolerance="12" minScale="0" type="1"/>
+      <layer-setting maxScale="0" enabled="0" id="Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1" units="1" tolerance="12" minScale="0" type="1"/>
       <layer-setting maxScale="0" enabled="0" id="DEM_5_contour_7bc6a611_41bf_4fc3_a48a_c94082c0711d" units="1" tolerance="12" minScale="0" type="1"/>
       <layer-setting maxScale="0" enabled="0" id="landmarks_3857_e8f300ea_deae_4438_a5a6_0ab6d27d3844" units="1" tolerance="12" minScale="0" type="1"/>
       <layer-setting maxScale="0" enabled="0" id="DEM_5_coastline_3857_ce15b372_8f4a_4b3b_b935_133eaed07911" units="1" tolerance="12" minScale="0" type="1"/>
@@ -480,10 +480,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-8245130.08588542975485325</xmin>
-      <ymin>4957589.72361157462000847</ymin>
-      <xmax>-8228296.19546070136129856</xmax>
-      <ymax>4987748.90107987448573112</ymax>
+      <xmin>-8238844.4942564507946372</xmin>
+      <ymin>4972666.45289700850844383</ymin>
+      <xmax>-8237792.37610490527004004</xmax>
+      <ymax>4974551.4014887772500515</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -505,13 +505,13 @@
   <projectModels/>
   <legend updateDrawingOrder="true">
     <legendgroup checked="Qt::Checked" open="true" name="Ted_Tests">
-      <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="Photos_geotagged" showFeatureCount="0">
+      <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="Photos" showFeatureCount="0">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" visible="1" layerid="Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8"/>
+          <legendlayerfile isInOverview="0" visible="1" layerid="Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup checked="Qt::Checked" open="true" name="Data_NYC_2021">
+    <legendgroup checked="Qt::Checked" open="false" name="Data_NYC_2021">
       <legendlayer checked="Qt::Unchecked" open="false" drawingOrder="-1" name="DEM_Bthymetry_cropped_3857_smoothed" showFeatureCount="0">
         <filegroup hidden="false" open="false">
           <legendlayerfile isInOverview="0" visible="0" layerid="DEM_Bthymetry_cropped_3857_smoothed_cb6aa367_d010_40d9_9d52_a6c1c5ecbf2e"/>
@@ -12998,23 +12998,23 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" refreshOnNotifyEnabled="0" legendPlaceholderImage="" autoRefreshTime="0" autoRefreshMode="Disabled" readOnly="0" labelsEnabled="0" symbologyReferenceScale="-1" simplifyAlgorithm="0" type="vector" hasScaleBasedVisibilityFlag="0" wkbType="PointZ" styleCategories="AllStyleCategories" simplifyMaxScale="1" geometry="Point" simplifyDrawingHints="0" simplifyLocal="1" refreshOnNotifyMessage="" minScale="100000000" simplifyDrawingTol="1">
       <extent>
-        <xmin>-74.01448888888889144</xmin>
-        <ymin>40.67463333333333253</ymin>
+        <xmin>-74.00496666666666101</xmin>
+        <ymin>40.73557222222222407</ymin>
         <xmax>-74.00496666666666101</xmax>
-        <ymax>40.74404444444444806</ymax>
+        <ymax>40.73557222222222407</ymax>
       </extent>
       <wgs84extent>
-        <xmin>-74.01448888888889144</xmin>
-        <ymin>40.67463333333333253</ymin>
+        <xmin>-74.00496666666666101</xmin>
+        <ymin>40.73557222222222407</ymin>
         <xmax>-74.00496666666666101</xmax>
-        <ymax>40.74404444444444806</ymax>
+        <ymax>40.73557222222222407</ymax>
       </wgs84extent>
-      <id>Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8</id>
-      <datasource>./photos_layer.gpkg|layername=photos_geotagged</datasource>
+      <id>Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1</id>
+      <datasource>memory?geometry=PointZ&amp;crs=EPSG:4326&amp;field=photo:string(0,0)&amp;field=filename:string(0,0)&amp;field=directory:string(0,0)&amp;field=altitude:double(0,0)&amp;field=direction:double(0,0)&amp;field=rotation:integer(0,0)&amp;field=longitude:string(0,0)&amp;field=latitude:string(0,0)&amp;field=timestamp:datetime(0,0)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Photos_geotagged</layername>
+      <layername>Photos</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
@@ -13032,7 +13032,7 @@ def my_form_open(dialog, layer, feature):
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type>dataset</type>
+        <type></type>
         <title></title>
         <abstract></abstract>
         <contact>
@@ -13050,15 +13050,15 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys nativeFormat="Wkt">
-            <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-            <srsid>3452</srsid>
-            <srid>4326</srid>
-            <authid>EPSG:4326</authid>
-            <description>WGS 84</description>
-            <projectionacronym>longlat</projectionacronym>
-            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -13071,7 +13071,7 @@ def my_form_open(dialog, layer, feature):
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
+      <provider encoding="">memory</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -13110,7 +13110,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" id="{ff12222c-3e1d-40d4-afa7-9e45f83441a6}" locked="0" class="SimpleLine">
+            <layer pass="0" enabled="1" id="{d0995808-5396-439e-9e8e-f7930522f78e}" locked="0" class="SimpleLine">
               <Option type="Map">
                 <Option value="0" name="align_dash_pattern" type="QString"/>
                 <Option value="square" name="capstyle" type="QString"/>
@@ -13122,7 +13122,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
                 <Option value="0" name="draw_inside_polygon" type="QString"/>
                 <Option value="bevel" name="joinstyle" type="QString"/>
-                <Option value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1" name="line_color" type="QString"/>
+                <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="line_color" type="QString"/>
                 <Option value="solid" name="line_style" type="QString"/>
                 <Option value="0.6" name="line_width" type="QString"/>
                 <Option value="MM" name="line_width_unit" type="QString"/>
@@ -13159,15 +13159,15 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" id="{126f2c22-2b94-43fd-bd98-921cdd18422b}" locked="0" class="SimpleFill">
+            <layer pass="0" enabled="1" id="{824ecb30-dd0f-494f-8820-f616d673a751}" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
-                <Option value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1" name="color" type="QString"/>
+                <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="color" type="QString"/>
                 <Option value="bevel" name="joinstyle" type="QString"/>
                 <Option value="0,0" name="offset" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
                 <Option value="MM" name="offset_unit" type="QString"/>
-                <Option value="182,113,16,255,rgb:0.71427481498435952,0.44252689402609291,0.06442359044785229,1" name="outline_color" type="QString"/>
+                <Option value="165,81,51,255,rgb:0.6470588235294118,0.31651789120317386,0.20167849240863661,1" name="outline_color" type="QString"/>
                 <Option value="solid" name="outline_style" type="QString"/>
                 <Option value="0.2" name="outline_width" type="QString"/>
                 <Option value="MM" name="outline_width_unit" type="QString"/>
@@ -13192,18 +13192,18 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" id="{75777a74-6a29-4f22-a586-ef0fed2c80bf}" locked="0" class="SimpleMarker">
+            <layer pass="0" enabled="1" id="{4721a123-d7b5-447d-8a62-4ee7edccdf97}" locked="0" class="SimpleMarker">
               <Option type="Map">
                 <Option value="0" name="angle" type="QString"/>
                 <Option value="square" name="cap_style" type="QString"/>
-                <Option value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1" name="color" type="QString"/>
+                <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="color" type="QString"/>
                 <Option value="1" name="horizontal_anchor_point" type="QString"/>
                 <Option value="bevel" name="joinstyle" type="QString"/>
                 <Option value="diamond" name="name" type="QString"/>
                 <Option value="0,0" name="offset" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
                 <Option value="MM" name="offset_unit" type="QString"/>
-                <Option value="182,113,16,255,rgb:0.71427481498435952,0.44252689402609291,0.06442359044785229,1" name="outline_color" type="QString"/>
+                <Option value="165,81,51,255,rgb:0.6470588235294118,0.31651789120317386,0.20167849240863661,1" name="outline_color" type="QString"/>
                 <Option value="solid" name="outline_style" type="QString"/>
                 <Option value="0.2" name="outline_width" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
@@ -13235,28 +13235,94 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" id="{859b9ced-89a0-4dc8-8072-890d2bcc2b73}" locked="0" class="SimpleMarker">
+            <layer pass="0" enabled="1" id="{2247148d-4f99-4b3f-88a5-9e045d748f7d}" locked="0" class="SimpleMarker">
               <Option type="Map">
                 <Option value="0" name="angle" type="QString"/>
                 <Option value="square" name="cap_style" type="QString"/>
-                <Option value="183,72,75,255,rgb:0.71764705882352942,0.28235294117647058,0.29411764705882354,1" name="color" type="QString"/>
+                <Option value="184,8,8,255,rgb:0.72156862745098038,0.03137254901960784,0.03137254901960784,1" name="color" type="QString"/>
                 <Option value="1" name="horizontal_anchor_point" type="QString"/>
                 <Option value="bevel" name="joinstyle" type="QString"/>
-                <Option value="circle" name="name" type="QString"/>
+                <Option value="star" name="name" type="QString"/>
                 <Option value="0,0" name="offset" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
                 <Option value="MM" name="offset_unit" type="QString"/>
-                <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="outline_color" type="QString"/>
+                <Option value="184,8,8,255,rgb:0.72156862745098038,0.03137254901960784,0.03137254901960784,1" name="outline_color" type="QString"/>
                 <Option value="solid" name="outline_style" type="QString"/>
-                <Option value="0" name="outline_width" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
                 <Option value="MM" name="outline_width_unit" type="QString"/>
-                <Option value="diameter" name="scale_method" type="QString"/>
-                <Option value="2" name="size" type="QString"/>
+                <Option value="area" name="scale_method" type="QString"/>
+                <Option value="6.6" name="size" type="QString"/>
                 <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
                 <Option value="MM" name="size_unit" type="QString"/>
                 <Option value="1" name="vertical_anchor_point" type="QString"/>
               </Option>
+              <effect enabled="1" type="effectStack">
+                <effect type="dropShadow">
+                  <Option type="Map">
+                    <Option value="0" name="blend_mode" type="QString"/>
+                    <Option value="2.645" name="blur_level" type="QString"/>
+                    <Option value="MM" name="blur_unit" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="blur_unit_scale" type="QString"/>
+                    <Option value="0,0,0,255,rgb:0,0,0,1" name="color" type="QString"/>
+                    <Option value="2" name="draw_mode" type="QString"/>
+                    <Option value="1" name="enabled" type="QString"/>
+                    <Option value="135" name="offset_angle" type="QString"/>
+                    <Option value="2" name="offset_distance" type="QString"/>
+                    <Option value="MM" name="offset_unit" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="offset_unit_scale" type="QString"/>
+                    <Option value="1" name="opacity" type="QString"/>
+                  </Option>
+                </effect>
+                <effect type="drawSource">
+                  <Option type="Map">
+                    <Option value="0" name="blend_mode" type="QString"/>
+                    <Option value="2" name="draw_mode" type="QString"/>
+                    <Option value="1" name="enabled" type="QString"/>
+                    <Option value="1" name="opacity" type="QString"/>
+                  </Option>
+                </effect>
+              </effect>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer pass="0" enabled="1" id="{f88afda9-a4e4-471c-9243-d8c686b2d40b}" locked="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option value="34" name="angle" type="QString"/>
+                <Option value="square" name="cap_style" type="QString"/>
+                <Option value="255,0,0,255,rgb:1,0,0,1" name="color" type="QString"/>
+                <Option value="1" name="horizontal_anchor_point" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="star" name="name" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="255,0,0,255,rgb:1,0,0,1" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="area" name="scale_method" type="QString"/>
+                <Option value="7.2" name="size" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+                <Option value="MM" name="size_unit" type="QString"/>
+                <Option value="1" name="vertical_anchor_point" type="QString"/>
+              </Option>
+              <effect enabled="0" type="effectStack">
+                <effect type="drawSource">
+                  <Option type="Map">
+                    <Option value="0" name="blend_mode" type="QString"/>
+                    <Option value="2" name="draw_mode" type="QString"/>
+                    <Option value="1" name="enabled" type="QString"/>
+                    <Option value="1" name="opacity" type="QString"/>
+                  </Option>
+                </effect>
+              </effect>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" name="name" type="QString"/>
@@ -13288,7 +13354,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
-            <layer pass="0" enabled="1" id="{cb397ad3-7a06-4bbe-b631-daf0a0ff3ee6}" locked="0" class="SimpleMarker">
+            <layer pass="0" enabled="1" id="{3aa3c2c9-f904-495a-a174-2ea1bb5bcbba}" locked="0" class="SimpleMarker">
               <Option type="Map">
                 <Option value="0" name="angle" type="QString"/>
                 <Option value="square" name="cap_style" type="QString"/>
@@ -13323,6 +13389,7 @@ def my_form_open(dialog, layer, feature):
       </selection>
       <customproperties>
         <Option type="Map">
+          <Option value="false" name="OnConvertFormatRegeneratePrimaryKey" type="bool"/>
           <Option name="dualview/previewExpressions" type="List">
             <Option value="&quot;filename&quot;" type="QString"/>
           </Option>
@@ -13341,13 +13408,6 @@ def my_form_open(dialog, layer, feature):
       <legend showLabelLegend="0" type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field configurationFlags="NoFlag" name="fid">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field configurationFlags="NoFlag" name="photo">
           <editWidget type="ExternalResource">
             <config>
@@ -13423,19 +13483,17 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="fid" name=""/>
-        <alias index="1" field="photo" name=""/>
-        <alias index="2" field="filename" name=""/>
-        <alias index="3" field="directory" name=""/>
-        <alias index="4" field="altitude" name=""/>
-        <alias index="5" field="direction" name=""/>
-        <alias index="6" field="rotation" name=""/>
-        <alias index="7" field="longitude" name=""/>
-        <alias index="8" field="latitude" name=""/>
-        <alias index="9" field="timestamp" name=""/>
+        <alias index="0" field="photo" name=""/>
+        <alias index="1" field="filename" name=""/>
+        <alias index="2" field="directory" name=""/>
+        <alias index="3" field="altitude" name=""/>
+        <alias index="4" field="direction" name=""/>
+        <alias index="5" field="rotation" name=""/>
+        <alias index="6" field="longitude" name=""/>
+        <alias index="7" field="latitude" name=""/>
+        <alias index="8" field="timestamp" name=""/>
       </aliases>
       <splitPolicies>
-        <policy policy="Duplicate" field="fid"/>
         <policy policy="Duplicate" field="photo"/>
         <policy policy="Duplicate" field="filename"/>
         <policy policy="Duplicate" field="directory"/>
@@ -13447,7 +13505,6 @@ def my_form_open(dialog, layer, feature):
         <policy policy="Duplicate" field="timestamp"/>
       </splitPolicies>
       <duplicatePolicies>
-        <policy policy="Duplicate" field="fid"/>
         <policy policy="Duplicate" field="photo"/>
         <policy policy="Duplicate" field="filename"/>
         <policy policy="Duplicate" field="directory"/>
@@ -13459,7 +13516,6 @@ def my_form_open(dialog, layer, feature):
         <policy policy="Duplicate" field="timestamp"/>
       </duplicatePolicies>
       <defaults>
-        <default field="fid" expression="" applyOnUpdate="0"/>
         <default field="photo" expression="" applyOnUpdate="0"/>
         <default field="filename" expression="" applyOnUpdate="0"/>
         <default field="directory" expression="" applyOnUpdate="0"/>
@@ -13471,7 +13527,6 @@ def my_form_open(dialog, layer, feature):
         <default field="timestamp" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="fid" exp_strength="0" unique_strength="1" notnull_strength="1" constraints="3"/>
         <constraint field="photo" exp_strength="0" unique_strength="0" notnull_strength="0" constraints="0"/>
         <constraint field="filename" exp_strength="0" unique_strength="0" notnull_strength="0" constraints="0"/>
         <constraint field="directory" exp_strength="0" unique_strength="0" notnull_strength="0" constraints="0"/>
@@ -13483,7 +13538,6 @@ def my_form_open(dialog, layer, feature):
         <constraint field="timestamp" exp_strength="0" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="fid" exp=""/>
         <constraint desc="" field="photo" exp=""/>
         <constraint desc="" field="filename" exp=""/>
         <constraint desc="" field="directory" exp=""/>
@@ -13500,9 +13554,9 @@ def my_form_open(dialog, layer, feature):
       </attributeactions>
       <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column hidden="0" width="349" name="photo" type="field"/>
+          <column hidden="0" width="223" name="photo" type="field"/>
           <column hidden="0" width="-1" name="filename" type="field"/>
-          <column hidden="0" width="211" name="directory" type="field"/>
+          <column hidden="0" width="289" name="directory" type="field"/>
           <column hidden="0" width="-1" name="altitude" type="field"/>
           <column hidden="0" width="-1" name="direction" type="field"/>
           <column hidden="0" width="-1" name="rotation" type="field"/>
@@ -26804,7 +26858,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="DEM_14_3857_58019b8d_e60f_4f20_98fe_5933e145ecbc"/>
     <layer id="road_graph_1776_3856_3a2d40ff_6009_4a37_9055_138d8d606c1c"/>
     <layer id="1782_British_Headquarters_map_modified_ca33a54a_327c_4549_9d7a_ec4e83ef1f4c"/>
-    <layer id="Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8"/>
+    <layer id="Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1"/>
   </layerorder>
   <labelEngineSettings/>
   <properties>
@@ -27526,7 +27580,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent ymax="4987748.90107987448573112" ymin="4957589.72361157462000847" xmax="-8222414.37206754460930824" xmin="-8251011.90927858650684357">
+    <DefaultViewExtent ymax="4974551.4014887772500515" ymin="4972666.45289700850844383" xmax="-8237424.76214283332228661" xmin="-8239212.10821852274239063">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -27591,7 +27645,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerName="Photos_geotagged" destinationFollowsActiveLayer="1" destinationLayer="Photos_a8fbb33e_f4a2_4dc8_a622_911bc2806ee8" destinationLayerProvider="memory" autoAddTrackVertices="0" destinationLayerSource="PointZ?crs=EPSG:4326&amp;field=photo:string(0,0)&amp;field=filename:string(0,0)&amp;field=directory:string(0,0)&amp;field=altitude:double(0,0)&amp;field=direction:double(0,0)&amp;field=rotation:integer(0,0)&amp;field=longitude:string(0,0)&amp;field=latitude:string(0,0)&amp;field=timestamp:datetime(0,0)&amp;uid={335c3513-4cc9-40df-874e-ac548fede4cd}" autoCommitFeatures="0">
+  <ProjectGpsSettings destinationLayerName="Photos" destinationFollowsActiveLayer="1" destinationLayer="Photos_4938a387_2f5a_4742_86b1_d58797ed0ee1" destinationLayerProvider="memory" autoAddTrackVertices="0" destinationLayerSource="PointZ?crs=EPSG:4326&amp;field=photo:string(0,0)&amp;field=filename:string(0,0)&amp;field=directory:string(0,0)&amp;field=altitude:double(0,0)&amp;field=direction:double(0,0)&amp;field=rotation:integer(0,0)&amp;field=longitude:string(0,0)&amp;field=latitude:string(0,0)&amp;field=timestamp:datetime(0,0)&amp;uid={fbf35c3e-1610-4b74-a9e3-3c63f76c417c}" autoCommitFeatures="0">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
