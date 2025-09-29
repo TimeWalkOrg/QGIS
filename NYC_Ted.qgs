@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveUser="User" saveDateTime="2025-09-28T22:47:10" version="3.40.10-Bratislava" saveUserFull="User">
+<qgis projectname="" saveUser="User" saveDateTime="2025-09-28T23:02:08" version="3.40.10-Bratislava" saveUserFull="User">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -35,11 +35,11 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group name="timewalk" expanded="0" groupLayer="" checked="Qt::Checked">
+    <layer-tree-group name="timewalk" expanded="1" groupLayer="" checked="Qt::Checked">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer name="geotagged_photos" providerKey="ogr" source="./photos.gpkg|layername=photos" expanded="0" legend_exp="" id="Photos_bd2def9f_dcb7_4099_ac7f_67ebe2f0b574" patch_size="-1,-1" checked="Qt::Checked" legend_split_behavior="0">
+      <layer-tree-layer name="geotagged_photos" providerKey="ogr" source="./photos.gpkg|layername=photos" expanded="0" legend_exp="" id="Photos_bd2def9f_dcb7_4099_ac7f_67ebe2f0b574" patch_size="-1,-1" checked="Qt::Unchecked" legend_split_behavior="0">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes"/>
@@ -98,7 +98,7 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-group name="1776_Raster" expanded="0" groupLayer="" checked="Qt::Checked">
+      <layer-tree-group name="1776_Raster" expanded="1" groupLayer="" checked="Qt::Checked">
         <customproperties>
           <Option/>
         </customproperties>
@@ -164,7 +164,7 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-group name="1609_Lines" expanded="0" groupLayer="" checked="Qt::Checked">
+      <layer-tree-group name="1609_Lines" expanded="1" groupLayer="" checked="Qt::Checked">
         <customproperties>
           <Option/>
         </customproperties>
@@ -604,10 +604,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-8245612.4935810063034296</xmin>
-      <ymin>4960685.65433616656810045</ymin>
-      <xmax>-8223473.7916156742721796</xmax>
-      <ymax>4984025.38407702464610338</ymax>
+      <xmin>-8244148.24828832503408194</xmin>
+      <ymin>4969221.97338058706372976</ymin>
+      <xmax>-8226795.88988833781331778</xmax>
+      <ymax>4977342.58778061624616385</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -628,10 +628,10 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup name="timewalk" open="false" checked="Qt::Checked">
-      <legendlayer name="geotagged_photos" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendgroup name="timewalk" open="true" checked="Qt::Checked">
+      <legendlayer name="geotagged_photos" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile layerid="Photos_bd2def9f_dcb7_4099_ac7f_67ebe2f0b574" isInOverview="0" visible="1"/>
+          <legendlayerfile layerid="Photos_bd2def9f_dcb7_4099_ac7f_67ebe2f0b574" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer name="2024-new_york_state-ortho_imagery" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
@@ -668,7 +668,7 @@
       </legendlayer>
     </legendgroup>
     <legendgroup name="1776_nyc" open="true" checked="Qt::Checked">
-      <legendgroup name="1776_Raster" open="false" checked="Qt::Checked">
+      <legendgroup name="1776_Raster" open="true" checked="Qt::Checked">
         <legendlayer name="1776-nyc-fire_map" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile layerid="map_fire_1776_modified_21105e42_dd64_4696_b766_add820e30c89" isInOverview="1" visible="0"/>
@@ -706,7 +706,7 @@
       </legendgroup>
     </legendgroup>
     <legendgroup name="1609_nyc" open="true" checked="Qt::Checked">
-      <legendgroup name="1609_Lines" open="false" checked="Qt::Checked">
+      <legendgroup name="1609_Lines" open="true" checked="Qt::Checked">
         <legendlayer name="1609-nyc-countour_lines-dem_5" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
             <legendlayerfile layerid="DEM_5_contour_7bc6a611_41bf_4fc3_a48a_c94082c0711d" isInOverview="0" visible="0"/>
@@ -941,31 +941,6 @@
     </legendgroup>
   </legend>
   <mapViewDocks/>
-  <mapcanvas name="mMapCanvas" annotationsVisible="1">
-    <units>feet us survey</units>
-    <extent>
-      <xmin>1134388.43643499980680645</xmin>
-      <ymin>182142.32461499999044463</ymin>
-      <xmax>1311307.99176500015892088</xmax>
-      <ymax>353830.94458499999018386</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys nativeFormat="Wkt">
-        <wkt>PROJCRS["NAD27 / New York Central",BASEGEOGCRS["NAD27",DATUM["North American Datum 1927",ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4267]],CONVERSION["New York CS27 Central zone",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",40,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-76.5833333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999375,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - New York - counties of Broome; Cayuga; Chemung; Chenango; Cortland; Jefferson; Lewis; Madison; Oneida; Onondaga; Ontario; Oswego; Schuyler; Seneca; Steuben; Tioga; Tompkins; Wayne; Yates."],BBOX[41.99,-77.75,44.41,-75.06]],ID["EPSG",32016]]</wkt>
-        <proj4>+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs</proj4>
-        <srsid>2708</srsid>
-        <srid>32016</srid>
-        <authid>EPSG:32016</authid>
-        <description>NAD27 / New York Central</description>
-        <projectionacronym>tmerc</projectionacronym>
-        <ellipsoidacronym>EPSG:7008</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <expressionContextScope/>
-  </mapcanvas>
   <main-annotation-layer refreshOnNotifyMessage="" legendPlaceholderImage="" styleCategories="AllStyleCategories" type="annotation" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" minScale="0" autoRefreshTime="0">
     <id>Annotations_db277a6d_0362_4a77_9763_a2bb7cb0d100</id>
     <datasource></datasource>
@@ -1584,7 +1559,7 @@
         <provider>
           <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
         </provider>
-        <rasterrenderer opacity="0.432" greenBand="2" redBand="1" alphaBand="4" type="multibandcolor" nodataColor="" blueBand="3">
+        <rasterrenderer opacity="0.323" greenBand="2" redBand="1" alphaBand="4" type="multibandcolor" nodataColor="" blueBand="3">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -1610,8 +1585,8 @@
             <algorithm>NoEnhancement</algorithm>
           </blueContrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
-        <huesaturation grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="0" invertColors="0" colorizeOn="0" colorizeStrength="100"/>
+        <brightnesscontrast contrast="19" brightness="-6" gamma="0.82"/>
+        <huesaturation grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255" saturation="34" invertColors="0" colorizeOn="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
@@ -1694,9 +1669,15 @@
       </resourceMetadata>
       <provider>gdal</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-        <noDataList useSrcNoData="0" bandNo="2"/>
-        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="1">
+          <noDataRange min="0" max="0"/>
+        </noDataList>
+        <noDataList useSrcNoData="0" bandNo="2">
+          <noDataRange min="0" max="0"/>
+        </noDataList>
+        <noDataList useSrcNoData="0" bandNo="3">
+          <noDataRange min="0" max="0"/>
+        </noDataList>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -1836,17 +1817,17 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <redContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>1</minValue>
             <maxValue>255</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </redContrastEnhancement>
           <greenContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>248</maxValue>
+            <minValue>1</minValue>
+            <maxValue>247</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </greenContrastEnhancement>
           <blueContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>1</minValue>
             <maxValue>227</maxValue>
             <algorithm>NoEnhancement</algorithm>
           </blueContrastEnhancement>
@@ -27480,7 +27461,7 @@ def my_form_open(dialog, layer, feature):
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
     <Legend>
-      <filterByMap type="bool">true</filterByMap>
+      <filterByMap type="bool">false</filterByMap>
     </Legend>
     <Macros>
       <pythonCode type="QString"></pythonCode>
@@ -28268,7 +28249,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="4958610.9759885910898447" xmax="-8223473.7916156742721796" xmin="-8245612.4935810063034296" ymax="4986100.06242460012435913">
+    <DefaultViewExtent ymin="4964071.69903857912868261" xmax="-8226795.88988833781331778" xmin="-8244148.24828832503408194" ymax="4982492.86212262418121099">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -28333,7 +28314,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoCommitFeatures="0" destinationLayerSource="D:/Github-D/QGIS/vector/1776/all_CE_shapes.shp" autoAddTrackVertices="0" destinationLayerName="1776-nyc-parcels-greenspaces_and_roads" destinationFollowsActiveLayer="1" destinationLayer="all_CE_shapes_6068c093_47be_49b0_9411_f9cb8795d345" destinationLayerProvider="ogr">
+  <ProjectGpsSettings autoCommitFeatures="0" autoAddTrackVertices="0" destinationFollowsActiveLayer="1" destinationLayer="">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
