@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveUser="User" saveDateTime="2025-09-28T22:39:10" version="3.40.10-Bratislava" saveUserFull="User">
+<qgis projectname="" saveUser="User" saveDateTime="2025-09-28T22:47:10" version="3.40.10-Bratislava" saveUserFull="User">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -94,7 +94,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="1776_nyc" expanded="0" groupLayer="" checked="Qt::Unchecked">
+    <layer-tree-group name="1776_nyc" expanded="1" groupLayer="" checked="Qt::Checked">
       <customproperties>
         <Option/>
       </customproperties>
@@ -140,7 +140,7 @@
           </customproperties>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group name="1776_Polygons" expanded="0" groupLayer="" checked="Qt::Checked">
+      <layer-tree-group name="1776_Polygons" expanded="1" groupLayer="" checked="Qt::Checked">
         <customproperties>
           <Option/>
         </customproperties>
@@ -272,7 +272,7 @@
           </layer-tree-layer>
         </layer-tree-group>
       </layer-tree-group>
-      <layer-tree-group name="1609_Raster" expanded="1" groupLayer="" checked="Qt::Checked">
+      <layer-tree-group name="1609_Raster" expanded="0" groupLayer="" checked="Qt::Checked">
         <customproperties>
           <Option/>
         </customproperties>
@@ -342,7 +342,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group name="1609-terrain" expanded="1" groupLayer="" checked="Qt::Checked">
+        <layer-tree-group name="1609-terrain" expanded="1" groupLayer="" checked="Qt::Unchecked">
           <customproperties>
             <Option/>
           </customproperties>
@@ -416,7 +416,7 @@
         </layer-tree-group>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group name="other_nyc" expanded="0" groupLayer="" checked="Qt::Checked">
+    <layer-tree-group name="other_nyc" expanded="1" groupLayer="" checked="Qt::Unchecked">
       <customproperties>
         <Option/>
       </customproperties>
@@ -604,10 +604,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-8239924.77480053808540106</xmin>
-      <ymin>4967563.67264274507761002</ymin>
-      <xmax>-8236346.4533544173464179</xmax>
-      <ymax>4971336.11854357272386551</ymax>
+      <xmin>-8245612.4935810063034296</xmin>
+      <ymin>4960685.65433616656810045</ymin>
+      <xmax>-8223473.7916156742721796</xmax>
+      <ymax>4984025.38407702464610338</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -667,7 +667,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="1776_nyc" open="false" checked="Qt::Unchecked">
+    <legendgroup name="1776_nyc" open="true" checked="Qt::Checked">
       <legendgroup name="1776_Raster" open="false" checked="Qt::Checked">
         <legendlayer name="1776-nyc-fire_map" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
@@ -681,7 +681,7 @@
         </legendlayer>
         <legendlayer name="1782-nyc_map-British_Headquarters-v2" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile layerid="1776_nyc_british_headquarters_map_ae640bc3_cc5f_46af_a89b_96f8cdd3ccd4" isInOverview="0" visible="0"/>
+            <legendlayerfile layerid="1776_nyc_british_headquarters_map_ae640bc3_cc5f_46af_a89b_96f8cdd3ccd4" isInOverview="0" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -692,15 +692,15 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup name="1776_Polygons" open="false" checked="Qt::Checked">
+      <legendgroup name="1776_Polygons" open="true" checked="Qt::Checked">
         <legendlayer name="1776-nyc-labels-landmarks" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile layerid="landmarks_3857_e8f300ea_deae_4438_a5a6_0ab6d27d3844" isInOverview="0" visible="0"/>
+            <legendlayerfile layerid="landmarks_3857_e8f300ea_deae_4438_a5a6_0ab6d27d3844" isInOverview="0" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer name="1776-nyc-parcels-greenspaces_and_roads" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile layerid="all_CE_shapes_6068c093_47be_49b0_9411_f9cb8795d345" isInOverview="0" visible="0"/>
+            <legendlayerfile layerid="all_CE_shapes_6068c093_47be_49b0_9411_f9cb8795d345" isInOverview="0" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -777,7 +777,7 @@
           </legendlayer>
         </legendgroup>
       </legendgroup>
-      <legendgroup name="1609_Raster" open="true" checked="Qt::Checked">
+      <legendgroup name="1609_Raster" open="false" checked="Qt::Checked">
         <legendgroup name="1609-nyc-elevation_map-dem_input" open="true" checked="Qt::Checked">
           <legendlayer name="1609-nyc-dem_Input_1_Manhattan_Mask_3857" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
             <filegroup open="false" hidden="false">
@@ -822,7 +822,7 @@
             </filegroup>
           </legendlayer>
         </legendgroup>
-        <legendgroup name="1609-terrain" open="true" checked="Qt::Checked">
+        <legendgroup name="1609-terrain" open="true" checked="Qt::Unchecked">
           <legendlayer name="1609-nyc-terrain-dem8-underwater_3857" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
             <filegroup open="false" hidden="false">
               <legendlayerfile layerid="DEM_8_Underwater_3857_49b8b2b3_a10e_41be_8f4a_dc8f5cb8952a" isInOverview="0" visible="0"/>
@@ -835,7 +835,7 @@
           </legendlayer>
           <legendlayer name="1609-nyc-dem8_hillshade_3857" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-              <legendlayerfile layerid="DEM_8_3857_9922c2d7_4081_450e_8c89_e2109b0aa6ae" isInOverview="0" visible="1"/>
+              <legendlayerfile layerid="DEM_8_3857_9922c2d7_4081_450e_8c89_e2109b0aa6ae" isInOverview="0" visible="0"/>
             </filegroup>
           </legendlayer>
           <legendgroup name="1609-working_group" open="false" checked="Qt::Checked">
@@ -870,10 +870,10 @@
         </legendgroup>
       </legendgroup>
     </legendgroup>
-    <legendgroup name="other_nyc" open="false" checked="Qt::Checked">
+    <legendgroup name="other_nyc" open="true" checked="Qt::Unchecked">
       <legendlayer name="1660-nyc-map-castello_upscaled_3857" open="false" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile layerid="Castello_Upscaled_3857_85a8d445_2b54_4a19_a331_2158b3aa6e56" isInOverview="0" visible="1"/>
+          <legendlayerfile layerid="Castello_Upscaled_3857_85a8d445_2b54_4a19_a331_2158b3aa6e56" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer name="1865-nyc-map-viele_sanitary_and_topographical" open="false" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
@@ -2580,7 +2580,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer refreshOnNotifyMessage="" legendPlaceholderImage="" styleCategories="AllStyleCategories" type="raster" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0">
+    <maplayer refreshOnNotifyMessage="" legendPlaceholderImage="" styleCategories="AllStyleCategories" type="raster" autoRefreshMode="Disabled" hasScaleBasedVisibilityFlag="0" maxScale="500" refreshOnNotifyEnabled="0" minScale="7263" autoRefreshTime="0">
       <extent>
         <xmin>-8239626.69777206610888243</xmin>
         <ymin>4968304.20809013675898314</ymin>
@@ -2789,7 +2789,7 @@
         <provider>
           <resampling enabled="false" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour"/>
         </provider>
-        <rasterrenderer opacity="0.4" greenBand="2" redBand="1" alphaBand="4" type="multibandcolor" nodataColor="" blueBand="3">
+        <rasterrenderer opacity="0.879" greenBand="2" redBand="1" alphaBand="4" type="multibandcolor" nodataColor="" blueBand="3">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -21642,7 +21642,7 @@ def my_form_open(dialog, layer, feature):
           </text-style>
           <text-format leftDirectionSymbol="&lt;" autoWrapLength="0" placeDirectionSymbol="0" formatNumbers="0" reverseDirectionSymbol="0" rightDirectionSymbol=">" wrapChar="" useMaxLineLengthForAutoWrap="1" multilineAlign="3" addDirectionSymbol="0" decimals="3" plussign="0"/>
           <placement distUnits="MM" maxCurvedCharAngleOut="-25" xOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" maxCurvedCharAngleIn="25" lineAnchorTextPoint="FollowPlacement" geometryGeneratorType="PointGeometry" lineAnchorClipping="0" prioritization="PreferCloser" distMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" lineAnchorType="0" preserveRotation="1" offsetType="0" allowDegraded="1" maximumDistanceMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" polygonPlacementFlags="2" layerType="PolygonGeometry" overrunDistanceUnit="MM" fitInPolygonOnly="0" repeatDistanceUnits="MM" geometryGenerator="" overrunDistance="0" geometryGeneratorEnabled="0" lineAnchorPercent="0.5" maximumDistanceUnit="MM" dist="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maximumDistance="0" offsetUnits="MM" overlapHandling="PreventOverlap" quadOffset="4" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" priority="5" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidInside="0" repeatDistance="0" rotationUnit="AngleDegrees" placementFlags="10" placement="0"/>
-          <rendering maxNumLabels="2000" fontMaxPixelSize="10000" scaleVisibility="1" scaleMin="0" obstacleType="1" fontMinPixelSize="6" fontLimitPixelSize="0" obstacleFactor="1" drawLabels="1" unplacedVisibility="0" zIndex="0" labelPerPart="0" mergeLines="0" scaleMax="15596" obstacle="1" upsidedownLabels="0" minFeatureSize="0" limitNumLabels="0"/>
+          <rendering maxNumLabels="2000" fontMaxPixelSize="10000" scaleVisibility="1" scaleMin="0" obstacleType="1" fontMinPixelSize="6" fontLimitPixelSize="0" obstacleFactor="1" drawLabels="1" unplacedVisibility="0" zIndex="0" labelPerPart="0" mergeLines="0" scaleMax="7263" obstacle="1" upsidedownLabels="0" minFeatureSize="0" limitNumLabels="0"/>
           <dd_properties>
             <Option type="Map">
               <Option value="" name="name" type="QString"/>
@@ -27480,7 +27480,7 @@ def my_form_open(dialog, layer, feature):
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
     <Legend>
-      <filterByMap type="bool">false</filterByMap>
+      <filterByMap type="bool">true</filterByMap>
     </Legend>
     <Macros>
       <pythonCode type="QString"></pythonCode>
@@ -28268,7 +28268,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="4967228.33834734000265598" xmax="-8236346.4533544173464179" xmin="-8239924.77480053808540106" ymax="4971671.45283897779881954">
+    <DefaultViewExtent ymin="4958610.9759885910898447" xmax="-8223473.7916156742721796" xmin="-8245612.4935810063034296" ymax="4986100.06242460012435913">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -28333,7 +28333,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoCommitFeatures="0" autoAddTrackVertices="0" destinationFollowsActiveLayer="1" destinationLayer="">
+  <ProjectGpsSettings autoCommitFeatures="0" destinationLayerSource="D:/Github-D/QGIS/vector/1776/all_CE_shapes.shp" autoAddTrackVertices="0" destinationLayerName="1776-nyc-parcels-greenspaces_and_roads" destinationFollowsActiveLayer="1" destinationLayer="all_CE_shapes_6068c093_47be_49b0_9411_f9cb8795d345" destinationLayerProvider="ogr">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
