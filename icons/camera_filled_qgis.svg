@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>camera-filled-qgis</title>
+  <path d="M9.5 5.5h5l1.2 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4.3l1.2-2z"
+        fill="param(fill)" stroke="param(outline)" stroke-width="0"/>
+  <circle cx="12" cy="13.5" r="4.25" fill="param(outline)" />
+  <circle cx="12" cy="13.5" r="2.75" fill="param(fill)" />
+  <circle cx="18.2" cy="9.8" r="0.9" fill="param(outline)" />
+</svg>
